@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>けいさんカード - サポート</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 20px;
+        }
+        .section {
+            margin: 40px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 30px;
+            color: #2c3e50;
+        }
+        .feature-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .feature-list li {
+            margin: 15px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        .feature-list li:before {
+            content: "•";
+            color: #3498db;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        .screenshots {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .screenshot {
+            max-width: 280px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .screenshot-wrapper {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .screenshot-caption {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+        .menu-item {
+            background: #fff;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .menu-item h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .trophy-note {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        @media (max-width: 600px) {
+            .screenshot {
+                max-width: 100%;
+            }
+            .section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="/api/placeholder/120/120" alt="けいさんカード" class="app-icon">
+    <h1>けいさんカード サポート</h1>
+
+    <div class="section">
+        <h2>アプリの特徴</h2>
+        <ul class="feature-list">
+            <li>楽しく学べる4種類の計算問題（たしざん①、たしざん②、ひきざん①、ひきざん②）</li>
+            <li>各問題でベスト5の記録を保存</li>
+            <li>タイムと問題数の表示で、進捗が一目でわかる</li>
+            <li>三択方式で簡単に解答可能</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>使い方</h2>
+        
+        <div class="menu-item">
+            <h3>1. 問題を選ぶ</h3>
+            <p>メインメニューから4つの問題タイプを選択できます。</p>
+            <div class="screenshot-wrapper">
+                <img src="/api/placeholder/280/500" alt="メインメニュー画面" class="screenshot">
+                <p class="screenshot-caption">メインメニュー画面 - 4つの問題タイプから選択できます</p>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <h3>2. 問題を解く</h3>
+            <p>画面に表示される計算問題に対して、下部の三つの選択肢から正解を選びます。画面上部には現在の問題番号（例：1/45）と経過時間が表示されます。</p>
+            <div class="screenshot-wrapper">
+                <img src="/api/placeholder/280/500" alt="問題画面" class="screenshot">
+                <p class="screenshot-caption">問題画面 - 三択から正解を選びます</p>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <h3>3. 結果確認</h3>
+            <p>全ての問題を解き終えると、かかった時間が表示されます。</p>
+            <div class="screenshots">
+                <div class="screenshot-wrapper">
+                    <img src="/api/placeholder/280/500" alt="結果画面" class="screenshot">
+                    <p class="screenshot-caption">結果画面 - 達成時間を確認できます</p>
+                </div>
+                <div class="screenshot-wrapper">
+                    <img src="/api/placeholder/280/500" alt="記録画面" class="screenshot">
+                    <p class="screenshot-caption">記録画面 - ベストタイムを確認できます</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>記録の確認方法</h2>
+        <div class="trophy-note">
+            <p>メインメニュー画面右側のトロフィーアイコンをタップすると、各問題のベスト5タイムを確認できます。新記録を達成すると、結果画面でお知らせします。</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>お問い合わせ</h2>
+        <p>アプリについてご質問やご要望がございましたら、以下の方法でお問い合わせください：</p>
+        <p>メール：[お問い合わせメールアドレス]</p>
+    </div>
+
+    <footer style="text-align: center; margin-top: 40px; padding: 20px; color: #666;">
+        <p>© 2025 けいさんカード All rights reserved.</p>
+    </footer>
+</body>
+</html>
